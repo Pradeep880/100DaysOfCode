@@ -24,6 +24,6 @@ public static void main(String args[]){
   int n=arr.length;
   Zerosum z1=new Zerosum();
   int count=z1.findSubarray(arr,n);
-  System.out.println("COunt:"+count);
+  System.out.println("Count:"+count);
 }
 }
