@@ -52,7 +52,7 @@ class Ancestor {
                 queue.add(temp.left);
             }
             if (temp.right != null) {
-                ancestor[temp.left.data] = temp.data;
+                ancestor[temp.right.data] = temp.data;
                 queue.add(temp.right);
             }
         }
